@@ -1,0 +1,80 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1599572601386' stop='1599572606499'>
+    <name>Role page : </name>
+    <title>Role page : </title>
+    <test-cases>
+        <test-case start='1599572601386' status='failed' stop='1599572606488'>
+            <name>validation of deletion of existing role</name>
+            <title>validation of deletion of existing role</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: callback is not a function</message>
+                <stack-trace>TypeError: callback is not a function
+                    at RolePage.searchBrResult (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\pages\rolePage.js:202:13)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at UserContext.&lt;anonymous> (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\tests\rolepageTest.js:56:8)
+                From: Task: Run fit("validation of deletion of existing role") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\tests\rolepageTest.js:51:5)
+                    at addSpecsToSuite (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\tests\rolepageTest.js:8:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+                    at Module.load (internal/modules/cjs/loader.js:985:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:878:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1599572606488' status='pending' stop='1599572606494'>
+            <name>Validate presence of roles table</name>
+            <title>Validate presence of roles table</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1599572606494' status='pending' stop='1599572606495'>
+            <name>validate number of roles created</name>
+            <title>validate number of roles created</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1599572606496' status='pending' stop='1599572606496'>
+            <name>validation of new role creation</name>
+            <title>validation of new role creation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

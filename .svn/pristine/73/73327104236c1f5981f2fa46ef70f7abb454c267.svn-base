@@ -1,0 +1,41 @@
+const loginpage = require('../pages/loginPage');
+const testdata = require('../testdata/data');
+const homepage = require('../pages/homePage');
+const util = require('../utils/utils');
+
+describe('HomePage test:', function () {
+
+
+    it('Validation of Saperion Product Logo' , function(){
+        homepage.viewsaprionLogo();
+    })
+
+    it('verify presence of different modules vertically', function () {
+        expect(homepage.isAllVerticalModulesDisplayed()).toBe(true);
+    })
+
+    it('Validation of User box display' , function(){
+       homepage.userTileDisplay();
+       
+    })
+
+    it('Validation of group box display' , function(){
+        homepage.groupTileDisplay();
+       
+    })
+    
+    it('Validation of roles box display' , function(){
+        homepage.roleTileDisplay();
+    })
+
+  
+    it('Validation of acl box display' , function(){
+       homepage.aclTileDisplay();
+    })
+    
+    it('Validation of tenant box display' , function(){
+      homepage.tenantTileDisplay();
+       
+    })
+
+})

@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598514343302' stop='1598514351699'>
+    <name>Role page : </name>
+    <title>Role page : </title>
+    <test-cases>
+        <test-case start='1598514343302' status='passed' stop='1598514351699'>
+            <name>validation of new role creation</name>
+            <title>validation of new role creation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1598514351699' status='pending' stop='1598514351699'>
+            <name>Validate presence of roles table</name>
+            <title>Validate presence of roles table</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598514351699' status='pending' stop='1598514351699'>
+            <name>validate number of roles created</name>
+            <title>validate number of roles created</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

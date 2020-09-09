@@ -1,0 +1,140 @@
+
+let RolePage = function() {
+
+    //locators
+    this.totalRolesCount = element(by.xpath("//div[contains(@class,'page-count')]"));
+    this.addRole = element(by.xpath("//mat-icon[text()='add']"));
+    this.newRolePageTitle = element(by.xpath("//span[.='New Role']"));
+    this.viewModuleRole = element(by.xpath("//mat-icon[text()='view_module']"));
+    this.roleRows = element.all(by.xpath('//datatable-body-row'));
+    this.saveRole = element(by.xpath("//mat-icon[.='done']"));
+    this.cancelRoleCreation = element(by.xpath("//mat-icon[.='close']"));
+    this.name = element(by.xpath("//input[@id='mat-input-16']"));
+    this.description = element(by.xpath("//input[@id='mat-input-17']"));
+    this.importingCheckBox = element(by.xpath("//input[@id='mat-checkbox-322']"));
+    this.indexingCheckBox = element(by.xpath("//input[@id='mat-checkbox-323']"));
+    this.queringCheckBox = element(by.xpath("//input[@id='mat-checkbox-324']"));
+    this.displayingCheckBox = element(by.xpath("//input[@id='mat-checkbox-325']"));
+    this.editingCheckBox = element(by.xpath("//input[@id='mat-checkbox-326']"));
+    this.AdministrationCheckBox = element(by.xpath("//input[@id='mat-checkbox-327']"));
+    this.configuringCheckBox = element(by.xpath("//input[@id='mat-checkbox-328']"));
+    this.superAdminCheckBox = element(by.xpath("//input[@id='mat-checkbox-330']"));
+    this.ssoUserCheckBox = element(by.xpath("//input[@id='mat-checkbox-329']"));
+    this.addGroupToRole = element(by.xpath("//div[@class='mat-form-field-suffix ng-tns-c3-54 ng-star-inserted']//mat-icon[@class='mat-icon material-icons']"));
+    this.selectGroup = element(by.xpath("//mat-option[4]/span[@class='mat-option-text']"));
+
+
+
+
+
+
+
+    //methods
+
+    this.rowCountOfRolesTable = function() {
+        if (utilpage.isElementPresent(this.roleRows))
+            return this.roleRows.count();
+        else
+            return 0;
+    }
+
+    this.getTotalNumOfRoles = function() {
+        if (utilpage.isElementVisible(this.totalRolesCount)) {
+            return this.totalRolesCount.getText().then(function (totalRoleStr) {
+                return Number(totalRoleStr.trim());
+            });
+        }
+        else
+            return 0;
+    }
+
+    this.AddNewRoleWindowOpened = function() {
+        if (utilpage.isElementVisible(this.addRole)) {
+            this.addRole.click();
+            if (utilpage.isElementVisible(this.newRolePageTitle))
+                return true;
+            else
+                return false;
+        }
+        else
+            return false;
+    }
+
+    this.setName = function(name) {
+        if (utilpage.isElementVisible(this.name) && fName != "")
+            this.name.sendKeys(name);
+    }
+
+    this.setDescription = function(description) {
+        if (utilpage.isElementVisible(this.description) && fName != "")
+            this.name.sendKeys(description);
+    }
+    
+
+    this.saveNewRole = function() {
+        if (utilpage.isElementPresent(this.saveRole))
+            this.saveRole.click();
+    }
+
+    this.addGroupToRole = function(){
+        if (utilpage.isElementPresent(this.addGroupToRole))
+            this.addGroupToRole.click();
+            this.selectGroup.click();
+
+    }
+
+    this.selectImportingCheckBox = function(){
+        if (utilpage.isElementPresent(this.importingCheckBox))
+            this.importingCheckBox.click();   
+    }
+
+    this.selectIndexingCheckBox = function(){
+        if (utilpage.isElementPresent(this.indexingCheckBox))
+            this.indexingCheckBox.click();   
+    }
+
+    this.selectQueringCheckBox = function(){
+        if (utilpage.isElementPresent(this.queringCheckBox))
+            this.queringCheckBox.click();   
+    }
+
+    this.selectDisplayingCheckBox = function(){
+        if (utilpage.isElementPresent(this.displayingCheckBox))
+            this.displayingCheckBox.click();   
+    }
+
+    this.selectEditingCheckBox = function(){
+        if (utilpage.isElementPresent(this.editingCheckBox))
+            this.editingCheckBox.click();   
+    }
+
+    this.selectAdminCheckBox = function(){
+        if (utilpage.isElementPresent(this.AdministrationCheckBox))
+            this.AdministrationCheckBox.click();   
+    }
+
+    this.selectConfiguringCheckBox = function(){
+        if (utilpage.isElementPresent(this.configuringCheckBox))
+            this.configuringCheckBox.click();   
+    }
+
+    this.selectSuperAdminCheckBox = function(){
+        if (utilpage.isElementPresent(this.superAdminCheckBox))
+            this.superAdminCheckBox.click();   
+    }
+
+    this.selecTSSoUserCheckBox = function(){
+        if (utilpage.isElementPresent(this.ssoUserCheckBox))
+            this.ssoUserCheckBox.click();   
+    }
+
+
+
+
+    
+
+
+
+
+}
+module.exports = new RolePage();

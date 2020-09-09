@@ -1,0 +1,35 @@
+const loginpage = require('../pages/loginPage');
+const testdata = require('../testdata/data');
+const homepage = require('../pages/homePage');
+
+
+describe('LoginPage Test:', function(){
+  
+  it('Validation login Page Title' , function(){
+      expect(browser.getTitle()).toBe('SAPERION User Management App');
+     
+  })
+
+  it('Validation locked user Error Message' , function(){
+    loginpage.loginToApp(testdata.lockUserData.uid,testdata.lockUserData.pwd,testdata.lockUserData.tenant);
+    loginpage.lockUservalidation();
+   })
+
+   it('Validation Deleted user error message' , function(){
+    loginpage.loginToApp(testdata.deleteUserData.uid,testdata.deleteUserData.pwd,testdata.deleteUserData.tenant);
+    loginpage.lockUservalidation();
+   })
+
+   it('Validation Sign in Functionality' , function(){
+    loginpage.loginToApp(testdata.loginData.uid,testdata.loginData.pwd,testdata.loginData.tenant);
+    homepage.homepageValidation();
+   })
+
+  
+
+})
+
+
+
+
+

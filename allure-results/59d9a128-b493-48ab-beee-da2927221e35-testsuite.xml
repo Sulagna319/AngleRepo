@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1599577507115' stop='1599577507150'>
+    <name>Role page : </name>
+    <title>Role page : </title>
+    <test-cases>
+        <test-case start='1599577507115' status='failed' stop='1599577507145'>
+            <name>validation of deletion of existing role</name>
+            <title>validation of deletion of existing role</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>NoSuchWindowError: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=85.0.4183.83)
+                  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.17763 x86_64)</message>
+                <stack-trace>NoSuchWindowError: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=85.0.4183.83)
+                  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.17763 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: WebDriver.takeScreenshot()
+                    at Driver.schedule (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at Driver.takeScreenshot (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+                    at run (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+                    at ProtractorBrowser.to.&lt;computed> [as takeScreenshot] (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+                    at C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\node_modules\protractor-jasmine2-screenshot-reporter\index.js:600:23
+                    at C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\node_modules\lodash\lodash.js:4905:15
+                    at baseForOwn (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\node_modules\lodash\lodash.js:2990:24)
+                    at C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\node_modules\lodash\lodash.js:4874:18
+                    at Function.forEach (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\node_modules\lodash\lodash.js:9342:14)
+                    at Jasmine2ScreenShotReporter.specDone (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\node_modules\protractor-jasmine2-screenshot-reporter\index.js:596:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1599577507145' status='pending' stop='1599577507147'>
+            <name>Validate presence of roles table</name>
+            <title>Validate presence of roles table</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1599577507148' status='pending' stop='1599577507148'>
+            <name>validate number of roles created</name>
+            <title>validate number of roles created</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1599577507148' status='pending' stop='1599577507148'>
+            <name>validation of new role creation</name>
+            <title>validation of new role creation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

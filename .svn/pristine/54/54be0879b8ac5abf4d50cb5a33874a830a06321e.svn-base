@@ -1,0 +1,31 @@
+const userpage = require('../pages/userPage');
+const homePage = require('../pages/homePage');
+const rolePage = require('../pages/rolePage');
+const testdata = require('../testdata/data')
+
+
+describe('Users page : ', function () {
+    it('Validate presence of roles table', function () {
+       homePage.rolesModuleVertical();
+       expect(rolePage.rowCountOfRolesTable()).toBeGreaterThanOrEqual(3);
+       
+    })
+
+    it('validate number of roles created', function () {
+        expect(userpage.rowCountOfRolesTable()).toEqual(userpage.totalRolesCount());
+     })
+
+
+    it('validation of new role creation',function(){
+    expect(rolePage.AddNewRoleWindowOpened()).toBeTruthy();
+       let name = testdata.newRoleDetails.Name;
+       let descrp = testdata.newRoleDetails.Description;
+       rolePage.setName(name);
+       rolePage.setDescription(descrp);
+       rolePage.selectEditingCheckBox;
+       rolePage.selectIndexingCheckBox;
+       rolePage.saveNewRole;     
+    })
+ 
+
+})

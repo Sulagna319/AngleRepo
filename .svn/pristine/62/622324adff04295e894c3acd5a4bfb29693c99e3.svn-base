@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1589139434646' stop='1589139435075'>
+    <name>HomePage test:</name>
+    <title>HomePage test:</title>
+    <test-cases>
+        <test-case start='1589139434646' status='passed' stop='1589139434686'>
+            <name>Validation of Saperion Product Logo</name>
+            <title>Validation of Saperion Product Logo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589139434686' status='passed' stop='1589139434877'>
+            <name>verify presence of different modules vertically</name>
+            <title>verify presence of different modules vertically</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589139434877' status='passed' stop='1589139434917'>
+            <name>Validation of User box display</name>
+            <title>Validation of User box display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589139434917' status='passed' stop='1589139434957'>
+            <name>Validation of group box display</name>
+            <title>Validation of group box display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589139434957' status='passed' stop='1589139435003'>
+            <name>Validation of roles box display</name>
+            <title>Validation of roles box display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589139435003' status='passed' stop='1589139435039'>
+            <name>Validation of acl box display</name>
+            <title>Validation of acl box display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589139435039' status='passed' stop='1589139435075'>
+            <name>Validation of tenant box display</name>
+            <title>Validation of tenant box display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

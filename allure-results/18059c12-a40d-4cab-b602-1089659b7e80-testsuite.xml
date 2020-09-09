@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598528198400' stop='1598528227902'>
+    <name>Users page : </name>
+    <title>Users page : </title>
+    <test-cases>
+        <test-case start='1598528198400' status='failed' stop='1598528227893'>
+            <name>verify new user creation</name>
+            <title>verify new user creation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Failed: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=84.0.4147.135)
+                  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.17763 x86_64)</message>
+                <stack-trace>NoSuchWindowError: no such window: target window already closed
+                from unknown error: web view not found
+                  (Session info: chrome=84.0.4147.135)
+                  (Driver info: chromedriver=84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}),platform=Windows NT 10.0.17763 x86_64)
+                    at Object.checkLegacyResponse (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:546:15)
+                    at parseHttpResponse (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:509:13)
+                    at C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30
+                    at runMicrotasks (&lt;anonymous>)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                From: Task: Protractor.waitForAngular() - Locator: By(xpath, //datatable-body-row)
+                    at Driver.schedule (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+                    at ProtractorBrowser.executeAsyncScript_ (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\built\browser.js:423:28)
+                    at C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\built\browser.js:454:33
+                    at ManagedPromise.invokeCallback_ (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                From: Task: &lt;anonymous>
+                    at Timeout.pollCondition [as _onTimeout] (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)
+                From: Task: Element [object Object] is not present
+                    at scheduleWait (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+                    at ControlFlow.wait (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+                    at Driver.wait (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+                    at run (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\built\browser.js:58:33)
+                    at ProtractorBrowser.to.&lt;computed> [as wait] (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\built\browser.js:66:16)
+                    at Function.isElementPresent (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\utils\utils.js:23:18)
+                    at Userpage.rowCountOfUsersTable (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\pages\userPage.js:19:22)
+                    at Userpage.isUserPresent (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\pages\userPage.js:92:35)
+                    at UserContext.&lt;anonymous> (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\tests\userpageTest.js:35:24)
+                    at C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                From: Task: Run fit("verify new user creation") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\tests\userpageTest.js:25:5)
+                    at addSpecsToSuite (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\tests\userpageTest.js:6:1)
+                    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+                    at Module.load (internal/modules/cjs/loader.js:985:32)
+                    at Function.Module._load (internal/modules/cjs/loader.js:878:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598528227893' status='pending' stop='1598528227896'>
+            <name>Verify presence of users table</name>
+            <title>Verify presence of users table</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598528227897' status='pending' stop='1598528227899'>
+            <name>verify number of users created</name>
+            <title>verify number of users created</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598528227899' status='pending' stop='1598528227900'>
+            <name>verify user table is sorted by ID</name>
+            <title>verify user table is sorted by ID</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598528227900' status='pending' stop='1598528227901'>
+            <name>verify user table is sorted by Short Name</name>
+            <title>verify user table is sorted by Short Name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

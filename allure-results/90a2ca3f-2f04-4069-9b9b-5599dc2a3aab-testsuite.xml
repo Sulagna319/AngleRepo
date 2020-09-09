@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598528506726' stop='1598528522380'>
+    <name>Users page : </name>
+    <title>Users page : </title>
+    <test-cases>
+        <test-case start='1598528506727' status='passed' stop='1598528522377'>
+            <name>verify new user creation</name>
+            <title>verify new user creation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1598528522377' status='pending' stop='1598528522378'>
+            <name>Verify presence of users table</name>
+            <title>Verify presence of users table</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598528522378' status='pending' stop='1598528522378'>
+            <name>verify number of users created</name>
+            <title>verify number of users created</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598528522378' status='pending' stop='1598528522378'>
+            <name>verify user table is sorted by ID</name>
+            <title>verify user table is sorted by ID</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598528522378' status='pending' stop='1598528522380'>
+            <name>verify user table is sorted by Short Name</name>
+            <title>verify user table is sorted by Short Name</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

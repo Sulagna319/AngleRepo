@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1599570206900' stop='1599570231647'>
+    <name>LoginPage Test:</name>
+    <title>LoginPage Test:</title>
+    <test-cases>
+        <test-case start='1599570206902' status='passed' stop='1599570231642'>
+            <name>Validation Sign in Functionality</name>
+            <title>Validation Sign in Functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1599570231643' status='pending' stop='1599570231644'>
+            <name>Validation login Page Title</name>
+            <title>Validation login Page Title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1599570231644' status='pending' stop='1599570231645'>
+            <name>Validation locked user Error Message</name>
+            <title>Validation locked user Error Message</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1599570231645' status='pending' stop='1599570231645'>
+            <name>Validation Deleted user error message</name>
+            <title>Validation Deleted user error message</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

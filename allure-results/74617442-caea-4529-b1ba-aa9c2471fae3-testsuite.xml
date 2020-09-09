@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1599575986352' stop='1599575993829'>
+    <name>Role page : </name>
+    <title>Role page : </title>
+    <test-cases>
+        <test-case start='1599575986352' status='passed' stop='1599575993826'>
+            <name>validation of deletion of existing role</name>
+            <title>validation of deletion of existing role</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1599575993826' status='pending' stop='1599575993826'>
+            <name>Validate presence of roles table</name>
+            <title>Validate presence of roles table</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1599575993827' status='pending' stop='1599575993827'>
+            <name>validate number of roles created</name>
+            <title>validate number of roles created</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1599575993827' status='pending' stop='1599575993827'>
+            <name>validation of new role creation</name>
+            <title>validation of new role creation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>This test was ignored</message>
+                <stack-trace></stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

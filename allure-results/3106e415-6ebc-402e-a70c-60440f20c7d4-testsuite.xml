@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598596103175' stop='1598596152805'>
+    <name>LoginPage Test:</name>
+    <title>LoginPage Test:</title>
+    <test-cases>
+        <test-case start='1598596103176' status='passed' stop='1598596128586'>
+            <name>Validation login Page Title</name>
+            <title>Validation login Page Title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1598596128587' status='passed' stop='1598596135808'>
+            <name>Validation locked user Error Message</name>
+            <title>Validation locked user Error Message</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1598596135808' status='passed' stop='1598596142438'>
+            <name>Validation Deleted user error message</name>
+            <title>Validation Deleted user error message</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1598596142438' status='passed' stop='1598596152804'>
+            <name>Validation Sign in Functionality</name>
+            <title>Validation Sign in Functionality</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

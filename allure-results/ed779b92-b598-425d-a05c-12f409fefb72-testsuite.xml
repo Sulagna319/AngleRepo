@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1598596425964' stop='1598596450000'>
+    <name>Role page : </name>
+    <title>Role page : </title>
+    <test-cases>
+        <test-case start='1598596425964' status='failed' stop='1598596430501'>
+            <name>Validate presence of roles table</name>
+            <title>Validate presence of roles table</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expected undefined to be greater than or equal 3.</message>
+                <stack-trace>Error: Failed expectation
+                    at UserContext.&lt;anonymous> (C:\Users\suchakraborty\Documents\SVN Projects\UserManagemetProtector\tests\rolepageTest.js:11:48)
+                    at C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25
+                    at C:\Users\suchakraborty\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1598596430501' status='passed' stop='1598596436032'>
+            <name>validate number of roles created</name>
+            <title>validate number of roles created</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1598596436033' status='passed' stop='1598596449999'>
+            <name>validation of new role creation</name>
+            <title>validation of new role creation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

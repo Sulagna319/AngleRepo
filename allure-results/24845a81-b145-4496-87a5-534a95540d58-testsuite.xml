@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1589133330830' stop='1589133331042'>
+    <name>HomePage test:</name>
+    <title>HomePage test:</title>
+    <test-cases>
+        <test-case start='1589133330830' status='passed' stop='1589133330864'>
+            <name>Validation of Saperion Product Logo</name>
+            <title>Validation of Saperion Product Logo</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589133330864' status='passed' stop='1589133330898'>
+            <name>Validation of User box display</name>
+            <title>Validation of User box display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589133330898' status='passed' stop='1589133330937'>
+            <name>Validation of group box display</name>
+            <title>Validation of group box display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589133330937' status='passed' stop='1589133330971'>
+            <name>Validation of roles box display</name>
+            <title>Validation of roles box display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589133330971' status='passed' stop='1589133331006'>
+            <name>Validation of acl box display</name>
+            <title>Validation of acl box display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1589133331007' status='passed' stop='1589133331042'>
+            <name>Validation of tenant box display</name>
+            <title>Validation of tenant box display</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

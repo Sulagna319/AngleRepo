@@ -1,0 +1,106 @@
+const testdata = require('../testdata/data');
+let Homepage = function () {
+
+    this.homepage = element(by.xpath('//b[.="User Management"]'));
+    this.menubutton = element(by.xpath('//mat-icon[.="menu"]'));
+    this.homebutton = element(by.xpath('//*[@id="navigation-container-content"]/mat-nav-list/mat-list-item[1]/div'));
+    this.user = element(by.xpath('//div[@id="navigation-container-content"]//div[contains(.,"Users")]'));
+    this.groups = element(by.xpath('//div[@id="navigation-container-content"]//div[contains(.,"Groups")]'));
+    this.roles = element(by.xpath('//div[@id="navigation-container-content"]//div[contains(.,"Roles")]'));
+    this.ACL = element(by.xpath('//div[@id="navigation-container-content"]//div[contains(.,"ACLS")]'));
+    this.tenant= element(by.xpath('//div[@id="navigation-container-content"]//div[contains(.,"Tenant")]'));
+    this.addbutton = element(by.xpath('//mat-icon[.="add"]'));
+    this.saperionlogo = element(by.xpath('//img[@id="navigation-bottom-image"]'));
+    this.homeModuleVertical = element(by.xpath("//div[text()=' "+ testdata.homePageModules[0] +" ']"));
+	this.usersModuleVertical = element(by.xpath("//div[text()=' "+ testdata.homePageModules[1] +" ']"));
+	this.groupsModuleVertical = element(by.xpath("//div[text()=' "+ testdata.homePageModules[2] +" ']"));
+	this.rolesModuleVertical = element(by.xpath("//div[text()=' "+ testdata.homePageModules[3] +" ']"));
+	this.aclsModuleVertical = element(by.xpath("//div[text()=' "+ testdata.homePageModules[4] +" ']"));
+	this.tenantsModuleVertical = element(by.xpath("//div[text()=' "+ testdata.homePageModules[5] +" ']"));
+
+    //tile section
+
+    this.usertiles = element(by.xpath('//mat-card-header[contains(.,"person Users")]'));
+    this.grouptiles = element(by.xpath('//mat-card-title[contains(.,"group Groups")]'));
+    this.roletiles = element(by.xpath('//mat-card-header[contains(.,"donut_large Roles")]'));
+    this.ACLtiles = element(by.xpath('//mat-card-header[contains(.,"security ACLs")]'));
+    this.tenanttiles = element(by.xpath('//mat-card-header[contains(.,"rowing Tenants")]'));
+    
+
+    this.isAllVerticalModulesDisplayed = function(){
+		let moduleCount = testdata.homePageModules.length;
+		for(let i = 0; i<moduleCount-1; i++){
+			if(!element(by.xpath("//div[text()=' "+ testdata.homePageModules[i] +" ']")).isPresent()){
+				return false;
+			}			
+		}
+		return true;
+    }
+    
+    this.clickOnVerticalUsersLink = function(){
+		this.usersModuleVertical.click();
+	}
+
+
+    this.homepageValidation = function () {
+        browser.sleep(2000);
+        expect((this.homepage).isPresent()).toBe(true);
+    }
+    
+    this.userbuttonClick = function() {
+       this.user.click();
+
+    }
+
+    this.groupbuttonClick = function() {
+        this.groups.click();
+    }
+
+    this.rolebuttonClick = function() {
+       this.groups.click();
+    }
+
+    this.aclbuttonClick = function() {
+        this.ACL.click();
+    }
+
+    this.tenantbuttonClick = function() {
+        this.tenant.click();
+    }
+
+    this.viewsaprionLogo = function() {
+       expect((this.saperionlogo).isPresent()).toBe(true); 
+    }
+
+    this.userTileDisplay = function() {
+        expect((this.usertiles).isPresent()).toBe(true);
+
+    }
+
+    this.groupTileDisplay = function() {
+
+        expect((this.grouptiles).isPresent()).toBe(true);
+    }
+
+    this.roleTileDisplay = function() {
+
+        expect((this.roletiles).isPresent()).toBe(true);
+    }
+
+    this.aclTileDisplay = function() {
+
+        expect((this.ACLtiles).isPresent()).toBe(true);
+
+    }
+
+    this.tenantTileDisplay = function(){
+
+        expect((this.tenanttiles).isPresent()).toBe(true);
+    }
+    
+    
+
+
+
+}
+module.exports = new Homepage();
